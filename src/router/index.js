@@ -4,17 +4,17 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: 'deploy_test__frontend/',
+      path: '/deploy_test__frontend',
       name: 'home',
       component: () => import('@/views/HomeView.vue')
     },
     {
-      path: 'deploy_test__frontend/register',
+      path: '/deploy_test__frontend/register',
       name: 'register',
       component: () => import('@/views/RegisterView.vue')
     },
     {
-      path: 'deploy_test__frontend/posts',
+      path: '/deploy_test__frontend/posts',
       name: 'posts',
       component: () => import('@/views/PostsView.vue')
     }
